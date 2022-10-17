@@ -6,4 +6,7 @@
 	1. Run stack network.yml (./Cloudformation/network.yml)
 	2. Run stack server.yml  (./Cloudformation/server.yml)
 
+# Result:
+	WebAppLBDNSName: http://Serve-WebAp-YOXZ6I39KPUX-1973965294.us-east-1.elb.amazonaws.com
+
 ![Screenshot](infrastructure-diagram.png)

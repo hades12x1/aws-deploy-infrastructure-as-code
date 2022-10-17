@@ -102,7 +102,7 @@ Resources:
                     apt-get install apache2 -y
                     systemctl start apache2.service
                     cd /var/www/html
-                    aws s3 cp s3://s3-server-170349815916/index.html .
+                    aws s3 cp s3://s3-server-392698236378/index.html .
             ImageId: !Ref AMI
             IamInstanceProfile: !Ref S3BucketsInstanceProfile
             SecurityGroups:
